@@ -1,0 +1,124 @@
+/* //////////////////////////nav bar css part */
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #fffdf7;
+    --nav-height: 30px;
+    padding-top: var(--nav-height);
+}
+
+.invisible_navbar {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    border: 0px solid red;
+    height: var(--nav-height);
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: transform 0.1s;
+}
+
+.invisible_navbar>img {
+    width: 5%;
+    row-gap: 20%;
+    margin-left: 4%;
+}
+
+.nav--hidden {
+    transform: translateY(calc(-1 * var(--nav-height)));
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    border: 0px solid blue;
+    background-color: #fffdf7;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    z-index: 2;
+    transition: transform 0.1s;
+}
+
+.navbar--up {
+    transform: translateY(-30px);
+}
+
+#freshly_logo {
+    width: 20%;
+    border: 0px solid red;
+    padding: 2%;
+}
+
+#freshly_logo>a>img {
+    width: 50%;
+
+}
+
+#titles {
+    display: flex;
+    padding: 2%;
+}
+
+#titles>a {
+    margin-left: 20px;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+    font-weight: bold;
+}
+
+#titles>a:hover {
+    color: #2a6dff;
+}
+
+#login_signup {
+    display: flex;
+    width: 20%;
+    padding: 2%;
+    border: 0px solid red;
+}
+
+#login_signup>.signup {
+    margin-left: 30px;
+}
+
+.signupBtn,
+.logout {
+    border: 0px solid red;
+    background-color: #3167ff;
+    font-family: sans-serif;
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+    width: 80px;
+    text-align: center;
+    height: auto;
+    cursor: pointer;
+    transition: transform 1.2s;
+    border-radius: 2px;
+    margin: auto;
+    text-decoration: none;
+    margin-top: -5px;
+}
+
+.signup>.logout:hover {
+    transform: translate(3px, -3px);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    cursor: pointer;
+}
+
+.login {
+    font-family: sans-serif;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.login:hover {
+    color: #2a6dff;
+}

@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Freshly-Plan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="navbar">
+    <a href="./index.html"><img
+        src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5fc4feea074f5b86a6c62285_freshly-logo-R.svg"
+        id="logo" alt="logo"></a>
+
+    <div id="bullet">
+
+      <div id="plans" class="sml" style="color:black ;"><b>Plans </b></div>
+      <div class="sml">></div>
+      <div id="days" class="sml">Day </div>
+      <div class="sml">></div>
+      <div id="Meals" class="sml">Meals </div>
+      <div class="sml">></div>
+      <div id="checkout" class="sml">Checkout </div>
+    </div>
+
+    <div id="customer"><span></span>
+      <style>
+        /* Style The Dropdown Button */
+        .dropbtn {
+          background-color: white;
+          color: blue;
+          padding: 16px;
+          font-size: 16px;
+          border: none;
+          cursor: pointer;
+        }
+
+        /* The container <div> - needed to position the dropdown content */
+        .dropdown {
+          position: relative;
+          display: inline-block;
+        }
+
+        /* Dropdown Content (Hidden by Default) */
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f9f9f9;
+          /* min-width: 160px; */
+
+          /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+          z-index: 1;
+        }
+
+        /* Links inside the dropdown */
+        .dropdown-content a {
+          color: blue;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+        }
+
+        /* Change color of dropdown links on hover */
+        .dropdown-content a:hover {
+          background-color: #f1f1f1
+        }
+
+        /* Show the dropdown menu on hover */
+        .dropdown:hover .dropdown-content {
+          display: block;
+        }
+
+        /* Change the background color of the dropdown button when the dropdown content is shown */
+        .dropdown:hover .dropbtn {
+          background-color: white;
+        }
+
+        .dropdown-content button {
+          width: 200px;
+          height: 60px;
+          border: none;
+          color: blue;
+        }
+      </style>
+
+      <div class="dropdown">
+        <button class="dropbtn"><span><svg xmlns="http://www.w3.org/2000/svg" width="21" height="21"
+              viewBox="0 0 21 21">
+              <g fill="none" fill-rule="evenodd" transform="translate(1 .144)">
+                <circle cx="9.5" cy="10.356" r="9.5" stroke="currentColor" stroke-width="1.5"></circle>
+                <path
+                  d="M9.296 15.896a1.28 1.28 0 0 1-.86-.32c-.255-.221-.39-.54-.39-.919 0-.344.124-.64.366-.877.48-.47 1.284-.473 1.759.002.237.237.357.532.357.875 0 .38-.13.687-.383.913a1.25 1.25 0 0 1-.849.326m-.065-3.299c-.294 0-.556-.104-.76-.299-.21-.202-.317-.489-.317-.85 0-1.148.69-1.777 1.36-2.384.166-.153.335-.307.496-.472.324-.332.383-.727.158-1.057-.205-.299-.64-.505-1.151-.289-.437.186-.65.592-.895 1.063l-.056.106c-.212.402-.568.677-.93.718-.304.038-.589-.09-.812-.347a1.306 1.306 0 0 1-.3-.67C5.809 6.698 7.098 5.453 8.437 5.18c1.12-.23 2.345.033 3.188.685.501.389.853.92.988 1.498a2.22 2.22 0 0 1-.233 1.611c-.256.46-.643.83-1.018 1.188-.5.478-.972.928-1.082 1.533-.105.574-.488.903-1.049.903"
+                  fill="currentColor"></path>
+              </g>
+            </svg></span>Customer Support</button>
+        <div class="dropdown-content">
+          <a><button>Live Chat</button></a>
+          <a><button>support@freshly.com</button></a>
+          <a><button>1-844-373-7459</button></a>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+  </div>
+  <hr>
+  <div id="main">
+    <h1>Flexible plans that fit your life</h1>
+    <p>We offer anywhere from 4–12 meals per week, starting at $12.50 / meal. <b>The bigger your box, the more you’ll
+        save —</b> and you can always pause, cancel, or change your plan at any time.</p>
+
+    <a href="./day_page.html">
+      <div id="meals_data" style="color:black">
+
+      </div>
+    </a>
+    <a href="./day_page.html">
+      <div id="meals_price" style="color:black">
+
+      </div>
+    </a>
+
+    <p id="para" style="margin-top:35px; color: rgb(89, 134, 134);">Shipping and tax added at checkout</p>
+    <a href="./day_page.html"><button id="btn"><b>Continue</b></button></a>
+  </div>
+
+  <div id="common_que">
+    <h1>Common Questions</h1>
+
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      .collapsible {
+        background-color: white;
+        color: rgb(5, 5, 5);
+        cursor: pointer;
+        padding: 18px;
+        width: 80%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+        margin: 10px;
+      }
+
+      .active,
+      .collapsible:hover {
+        background-color: whitesmoke;
+        color: rgb(49, 83, 156);
+      }
+
+      .content {
+        padding: 0 28px;
+        display: none;
+        overflow: hidden;
+        text-align: center;
+        margin-left: 110px;
+        background-color: #f1f1f1;
+        width: 80%;
+      }
+    </style>
+    </head>
+
+    <body>
+
+
+
+      <button type="button" class="collapsible"><b>How many servings are your meals?</b></button>
+      <div class="content">
+        <p>The majority of our meals are single serving and meant to feed an average adult. We also offer multi-serve
+          proteins and sides, which are designed to feed multiple people for extra mealtime flexibility. These
+          delicious, ready-to-heat options can help you bulk up existing meals, simplify home cooking, or even build an
+          entire meal—the choice is yours!
+          <br><br>
+          Our 6-meal plan is perfect for a person looking for 6 dinners (or lunches!) a week. On average, our meals
+          weigh in at about 13 ounces and range from 300 to 650 calories. If you have a larger household, we do offer a
+          12 meal per week subscription (it’s perfect for couples or a family of 4 looking for 3 meals per week). Plus,
+          you can always order multiple subscriptions.
+        </p>
+      </div>
+
+
+      <button type="button" class="collapsible"><b>Do you accommodate dietary preferences?</b></button>
+      <div class="content">
+        <p>We accommodate a variety of dietary preferences, including plenty of gluten-free, dairy-free, peanut-free,
+          plant-based, low-calorie, and carb-conscious options. As a customer, you can set your own dietary preferences
+          and easily find the meals that work for you. You can also check out individual ingredient lists for each dish
+          if you have specific concerns, or contact us at support@freshly.com for help making selections. If you’re
+          unable to place an order that fits your preferences now, be sure to check back frequently as we’re always
+          adding new and exciting dishes.</p>
+      </div>
+      <button type="button" class="collapsible"><b>How long do the meals last?</b></button>
+      <div class="content">
+        <p>Our meals are chef prepared and delivered fresh, so typically they have a refrigerated shelf life of about
+          3-5 days. Select items (such as seafood) are best eaten first, so we’ll add a badge on the package to let you
+          know. We usually suggest enjoying these meals within the first few days of receiving your order, but you can
+          always check their exact use-by date on the back-of-pack nutrition label. If you’re ever unable to finish your
+          meals within their shelf life, you can always pop them into the freezer for extended storage. Just be sure to
+          microwave your meal straight from the freezer and add a few extra minutes to reach the 165° F internal
+          temperature we recommend.
+
+        </p>
+      </div>
+      <button type="button" class="collapsible"><b>How do I heat up my meals?</b></button>
+      <div class="content">
+        <p>Your meals will come to you fully prepared so you just have to heat ‘em up in the microwave. On the back of
+          each meal, you’ll find our easy steps for heating, but generally, the meals heat up in about 3 minutes
+          (depending on your microwave). If you’re unsure, start at 2 minutes and heat in 30–second increments until the
+          meal reaches an inner temperature of 165° F. Our meals are packaged to be heated in the microwave (for the
+          ultimate convenience), but you can heat them in the oven if you’d like. Just so you know, our current meal
+          containers aren’t safe for the oven or stovetop, so you’ll have to transfer your food to heat it up. You can
+          check out the full oven reheat directions in our FAQ.</p>
+      </div>
+
+      <button type="button" class="collapsible"><b>How do I heat up my meals?</b></button>
+      <div class="content">
+        <p>To help guarantee your meals arrive in the freshest condition, there is a small shipping fee associated with
+          your order. We deliver to all states within the continental U.S., and our shipping partners offer delivery
+          every day of the week. The exact days that we can reach you will depend on your ZIP code and the carrier
+          delivering your Freshly meals. Whether you're signing up or updating your typical delivery day, we'll show you
+          all the days available to you so you can choose what's best for you.</p>
+      </div>
+
+      <button type="button" class="collapsible"><b>How does the subscription work?</b></button>
+      <div class="content">
+        <p>Every week you get to pick your selection of meals from our weekly rotation of 50+ options. Choose any number
+          of meals between 4 and 12 per week, with meals as low as $8.99 each. You'll pick the most convenient delivery
+          day for you, and we'll ship your chef-cooked meals right to your doorstep! If you ever need to skip or cancel
+          a week, or size your order up or down, it's easy to make changes to your upcoming delivery before the weekly
+          deadline.</p>
+      </div>
+
+      <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+              content.style.display = "none";
+            } else {
+              content.style.display = "block";
+            }
+          });
+        }
+      </script>
+  </div>
+
+</body>
+
+</html>
+<script src="./plan_page.js" type="module"></script>

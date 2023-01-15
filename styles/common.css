@@ -1,0 +1,92 @@
+.common_text {
+    text-align: center;
+
+}
+
+.contentBx {
+    width: 80%;
+    /* border: 1px solid red; */
+    display: block;
+    margin: auto;
+
+
+}
+
+.title {
+    transition: background 0.2sec;
+    display: block;
+    text-align: left;
+    cursor: pointer;
+    padding: 14px;
+    font-size: 16px;
+    font-family: FavoritFreshly, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    color: #2a6dff;
+    line-height: 50px;
+    transition: all 0.5s ease-in-out;
+    /* position: relative; */
+
+}
+
+.title:hover {
+    color: #3b548a;
+
+}
+
+.title::after {
+    content: "\25be";
+    float: right;
+    transform: scale(2);
+    transition: all 0.5s ease-in-out;
+
+
+}
+
+
+.title--active+.content {
+    display: block;
+    max-height: 200px;
+    transition-delay: 1ms;
+    transition: all 0.5s ease-in-out;
+
+    /* overflow-y: scroll; */
+}
+
+
+.title--active {
+    /* transition: 0.5sec; */
+    color: #4da290;
+}
+
+.title--active::after {
+    content: "\25b4";
+    transition: all 0.5s;
+}
+
+.content p {
+    margin-top: 0px;
+    font-family: FavoritFreshly, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 520;
+    line-height: 25px;
+    color: #303030;
+}
+
+.content {
+    /* overflow: hidden;
+       transition: max-height 0.2s; */
+    display: none;
+    padding: 5px;
+    overflow: auto;
+    margin-top: -10px;
+    transition: all 0.5s ease-in-out;
+
+
+}
+
+#accordion {
+    /* position: absolute; */
+    width: 100%;
+    margin-bottom: 50px;
+
+}

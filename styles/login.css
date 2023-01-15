@@ -1,0 +1,177 @@
+#navbar_login img {
+    width: 116px;
+    height: 27px;
+}
+
+svg {
+    overflow: hidden;
+}
+
+#navbar_login img,
+svg {
+    vertical-align: middle;
+}
+
+#navbar_login {
+    display: flex;
+    justify-content: space-between;
+    height: 4rem;
+    background-color: #fff;
+    /* border: 1px solid red; */
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid #ededed;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(237, 237, 237);
+    margin: auto;
+    /* border: 1px solid red; */
+}
+
+#login_list_right li,
+#login_list_left li {
+    font-family: FavoritFreshly;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    font-size: 1rem;
+}
+
+#login_list_right a,
+#login_list_left a {
+    text-decoration: none;
+    color: #303030;
+}
+
+#login_list_right li:hover,
+#login_list_left li:hover {
+    font-family: FavoritFreshly;
+    text-decoration: underline;
+    color: #2a6dff;
+}
+
+#signup_btn {
+
+    background-color: #2a6dff;
+    color: #fff;
+    font-weight: 600;
+    margin: 20px;
+    /* border: 1px solid red; */
+
+
+}
+
+
+#signup_btn:hover {
+    text-decoration: none;
+    transition: 1s;
+    font-weight: 800;
+    background-color: #6187da;
+    color: #fff;
+}
+
+#Login_Details h1 {
+    text-align: center;
+    font-family: FavoritFreshly, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 500px;
+    font-size: 48px;
+    color: #303030;
+}
+
+#loginform {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+
+
+
+#loginform input {
+    /* border: 1px solid red; */
+    padding: 8px 0px;
+    width: 99%;
+    border-color: solid #817c7c;
+    border: 1px solid #b4c4d4;
+    background-color: #fff;
+    background-clip: padding-box;
+    height: calc(1.5em + 0.75rem + 2px);
+    margin-bottom: 10px;
+    border-radius: 3px;
+    font-size: 18px;
+
+
+}
+
+#useremail:focus,
+#userpassword:focus,
+#username:focus {
+    outline: 0.5px solid #3167ff;
+}
+
+::placeholder {
+    font-size: medium;
+    padding: 15px;
+}
+
+/* #loginform input [type="useremail"], */
+/* #loginform input [type="password"] { */
+
+
+
+#loginform label {
+    line-height: 30px;
+    font-size: .875rem;
+    font-weight: 550;
+    color: #303030;
+}
+
+#loginform button {
+    padding: 12px;
+    width: 100%;
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #2a6dff;
+    border-color: #2a6dff;
+
+}
+
+#loginform button:hover {
+    background-color: #4773d4;
+    transition: 1sec;
+}
+
+#Login_Details {
+    /* border: 1px solid red; */
+
+    background-color: #fffdf7;
+}
+
+
+* {
+    font-family: FavoritFreshly, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+#forgetpassword {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+#donthaveacc {
+    /* background-color: #2a6dff; */
+    margin-left: 350px;
+}
+
+#passwordcolor {
+    color: #2a6dff;
+}
+
+#passwordcolor:hover {
+    color: #2d4c8f;
+    transition: 1sec;
+}

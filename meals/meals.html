@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+  
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel='stylesheet' href="./meals.css">
+    <link rel='stylesheet' href="./details.css">
+    <style>
+        .products_main>div:nth-child(1){
+            display: flex;
+            height: 70px;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0px 10px;
+            border-bottom: 1px solid gray;
+            width: 100%;
+        }
+        .products_main>div:nth-child(2){
+            display: flex;
+            height: 50px;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0px 10px;
+            border-bottom: 1px solid gray;
+            width: 100%;
+        }
+       
+        .products_main{
+            width: 70%;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="meals_main">
+        <div class="products_main">
+            <div>
+                <a href="../day_page.html">back</a>
+                <p>Delivery : <select>
+                    <option>Saturday, sep 2</option>
+                    <option>Sunday, sep 3</option>
+                    <option>Monday, sep 4</option>
+                </select>
+            </p>
+                <a href="/">Customer Support</a>
+            </div>
+            <div>
+                <h3>Choose Meals</h3>
+                <p>
+
+              Sort 
+            <select id="sort"  >
+                <option value="">Deafault</option>
+                <option value="htl">High to Low</option>
+                <option value="lth">Low to High</option>
+            </select>
+        </p>
+        </div>
+            <div class="products">
+
+            </div>
+        </div>
+        <div id="cart_sidebar">
+            <div class="delhivary">
+                <p>My delivery for : <b>Friday, sep 2</b></p>
+                <p id="clear" >clear all</p>
+            </div>
+            <div class="cart_cont">
+               
+
+            </div>
+            <div class="price_cont">
+                <div class="saved">
+                    <div>
+                        <h3>You saved 7%</h2>
+                        <h4 id="price_cart">Subtotal  70%</h4>
+                       
+
+                    </div>
+                    <div> <i class="fa-solid fa-cart-shopping"></i></div>
+                </div>
+                <button id="next">Next</button>
+                <p>The more you add the more you save</p>
+            </div>
+            
+
+            
+   
+
+        </div>
+        <div class="meals_containesr">
+            <div class="top_heading">
+                <h1>HomeStyle Chicken</h1>
+                <p><i>With Masterful Mac & Cheese</i></p>
+                <div class="nutri">
+                    <div>High protein</div>
+                    <div>Gulten free</div>
+                    <div>Fresh meat</div>
+                </div>
+                <div class="cross">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+            <div class="scroll">
+    
+    
+                <div class="meals_img">
+                    <img
+                        src="https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6b8686c6708c070e7d41_production-meal-image-e4122aa8-0fe7-4854-b6f5-e27e0c5be918.jpeg">
+                </div>
+                <div class="dish_special">
+    
+                    <h3> What makes this dish special</h3>
+                    <p>
+    
+                        Greaseless oven-fried chicken breast, hand-"breaded' with a gluten-free almond flour batter
+                    </p>
+                    <p>
+                        Our Masterful Mac is made with gluten-free brown-rice macaroni and a cheesy sauce thickened with
+                        butternut squash
+    
+                    </p>
+                    <p>
+                        Garlicky green beans tossed in our fragrant, house-infused oil
+    
+                    </p>
+                    <p>
+                        Add some chile kick with red pepper flakes or your favorite hot sauce
+                    </p>
+    
+    
+    
+                </div>
+                <div class="ingredients">
+                    <div class="grid">
+    
+    
+                        <div>
+                            <img
+                                src="https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61063fef3319db6548088da9_production-image-7c712299-a728-48ad-bf50-3a87133b24b4.jpeg">
+                            <p>Green Beans</p>
+                        </div>
+                        <div>
+                            <img
+                                src="https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61063fef3319db565e088daa_production-image-ddc396f0-87d5-4588-91d3-bb4ce8e8c6d0.jpeg">
+                            <p> Cheese</p>
+                        </div>
+                        <div>
+                            <img
+                                src="https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61063ffd26c6eb8df9d72394_production-image-52178431-8646-4502-9758-c29fec0a09ae.jpeg">
+                            <p>souace</p>
+                        </div>
+                        <div>
+                            <img
+                                src="https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61063ff66931cb129dbd4c56_production-image-b5eeaeaa-981c-4b81-b581-e1f30dabd4d9.jpeg">
+                            <p>sauce</p>
+Delhivery                        </div>
+                        <div>
+                            <img
+                                src="https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61063fef3319db6548088da9_production-image-7c712299-a728-48ad-bf50-3a87133b24b4.jpeg">
+                            <p>Green Beans</p>
+                        </div>
+                        <div>
+                            <img
+                                src="https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61063ffd26c6eb4653d723d8_production-image-d284663f-b214-4d9f-904b-8189dc81a6d7.jpeg">
+                            <p>Tomato</p>
+                        </div>
+    
+    
+    
+                    </div>
+                    <div class="ingrdents_deatials">
+                        <h3>
+                            All Ingredients
+                        </h3>
+                        <p>
+                            Russet Potatoes, Flat Iron Steak, Green Beans, Carrots, Peppercorn Cream Sauce (Water, Half & Half
+                            (Cream and Milk), Onion, Plain Yogurt (Cultured Grade A Non Fat Milk), Chicken Stock Concentrate
+                            (Chicken Broth, Natural Flavors, Mirepoix Stock (Carrot, Onion and Celery Juices), Gelatin, White
+                            Wine), Expeller Pressed Canola Oil, Tapioca Starch, Vinegar, Whole Green Peppercorns, Garlic, Sea
+                            Salt, Thyme, Porcini Mushroom Powder and Ground White Pepper), Water, Half & Half (Milk, Cream),
+                            Butter (Cream, Natural Flavors), Vinegar, Garlic, Sea Salt, Expeller Pressed Canola Oil, Rice Flour,
+                            Potatoes, Spices, Baking Soda, Rosemary Extract (Salt, Natural Extract).
+                        </p>
+                  
+                    </div>
+    
+    
+    
+    
+    
+    
+                </div>
+    
+    
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+<script type="module" src="./meals.js"></script>
+

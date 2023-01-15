@@ -1,0 +1,181 @@
+ body>div{
+    font-family: Helvetica,Arial,sans-serif;
+    background-color: #fff;
+ }
+ 
+ #navbar{
+    width: 100%;
+    height: 65px;
+    /* border: 1px solid grey; */
+}
+
+#navbar img{
+    width: 120px;
+    height: 70px;
+    margin-left: 10px;
+}
+
+#bullet{
+    width: 400px;
+    height: 35px;
+    /* border:1px solid grey; */
+    margin-top: -58px;
+    margin-left: 450px;
+    display: flex;
+}
+#bullet .sml {
+    margin: 15px;
+    color: grey;
+}
+
+#customer{
+    width: 200px;
+    height: 35px;
+    /* border:1px solid grey; */
+    margin-top: -38px;
+    margin-left: 1100px;
+}
+#customer img{
+    width: 30%;
+    height: 80%;
+}
+
+#main{
+    width: 100%;
+    height: 480px;
+    /* border: 1px solid gray; */
+    text-align: center;
+    /* padding-top: 10px; */
+
+}
+#main h1{
+    font-size: 50px;
+    color: #303030;
+}
+#main p{
+    width: 750px;
+    line-height:25px;
+    margin-left: 300px;
+    margin-top: -20px;
+}
+#main #meals_data {
+    width: 1000px;
+    height: 90px;
+    border: 1px solid rgb(236, 234, 234);
+    margin-left:200px;
+    margin-top:60px;
+    display:flex;
+
+    
+}
+
+#main #meals_price {
+    width: 1000px;
+    height: 90px;
+    border: 1px solid rgb(236, 234, 234);
+    margin-left:200px;
+    display:flex;
+    margin-top: -6px;
+}
+.inner_div{
+    width: 11%;
+    height: 90%;
+    border: 1px solid rgb(236, 234, 234);
+    padding: 10px;
+}
+
+#main #meals_data .inner_div:nth-child(3){
+    background-color: rgb(182, 250, 227);
+}
+
+#main #meals_data .inner_div h5{
+    color: rgb(57, 124, 102);
+    text-decoration:underline;
+}
+
+#main #meals_price .inner_div:nth-child(3){
+    background-color:rgb(182, 250, 227);
+}
+#main #meals_price .inner_div h4{
+    color: rgb(57, 124, 102);
+    text-decoration:underline;
+}
+
+#line{text-decoration: line-through; color: rgb(204, 197, 197); text-decoration:underline;}
+#btn{
+    background-color: rgb(43, 136, 243);
+    margin-top: 20px;
+    color: whitesmoke;
+    border:none;
+    width: 170px;
+    height:35px;
+    font-size:15px;
+}
+
+/* #btn :hover{
+    border:
+} */
+
+#common_que{
+    width: 100%;
+    height: 800px;
+    
+    text-align: center;
+}
+#common_que h1{
+    margin-top: 70px;
+    font-size: 48px;
+    font-family:"hevetica-neue";
+    color: #303030;
+}
+
+
+#mid_section{
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid black; */
+    text-align: center;
+    
+}
+#mid_section h1{
+    font-size: 45px;
+    color: #303030;
+}
+
+#scroll {
+    width: 35%;
+    height: 300px;
+    /* border: 1px solid rgb(46, 45, 45); */
+    margin-left: 30%;
+    margin-top:60px;
+    overflow: scroll;
+    color: #303030;
+}
+#scroll li{
+    text-align: left;
+    padding-left: 20px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid black;
+}
+
+#scroll li:hover{
+    margin-left: 10px;
+}
+
+#btn_next{
+    background-color: rgb(43, 136, 243);
+    margin-top: 60px;
+    color: whitesmoke;
+    border:none;
+    width: 30%;
+    height: 40px;
+    font-size:20px;
+    margin-right: 45px;
+}
+
+
+
+
+
+

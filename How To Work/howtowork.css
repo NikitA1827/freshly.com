@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+#container
+{
+    /* border: 2px solid fuchsia; */
+}
+#about-container
+{
+    border: 1px solid red;
+    margin: auto;
+}
+#inner-about-container
+{
+    /* border: 1px solid green; */
+    /* width: 70%; */
+    margin: auto;
+    /* height: 600px; */
+    text-align: center;
+}
+#inner-about-container>p
+{
+    font-size: 45px;
+    font-weight: 600;
+    color: #333;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#about-content
+{
+    background-color: #fffdf7;
+    margin-bottom: 30px;
+    /* margin-top: 20px; */
+}
+#about-firstPara
+{
+    font-size: 35px;
+    font-weight: 600;
+    color:#333;
+    margin-top: 50px;
+    padding-top: 30px;
+}
+#about-secondPara
+{
+    font-size: 14px;
+    color: #333;
+    line-height: 1.4em;
+    margin-bottom: 20px;
+}
+
+/* Our Food Philosophy */
+
+#food_container
+{
+    /* border: 1px solid red; */
+    text-align: center;
+}
+#food_firstpara
+{
+    font-size: 40px;
+    color: #333;
+    margin-top: 30px;
+    font-weight: 600;
+}
+#food_secondpara
+{
+    font-size: 13px;
+    color: #333;
+    font-weight: 500;
+}
+#food_items
+{
+    display: flex;
+    width: 60%;
+    /* border: 2px solid teal; */
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.food_list
+{
+    width: 33%;
+    margin: auto;
+    text-align: center;
+}
+.img_container_food
+{
+    width: 70%;
+    /* border: 2px solid rebeccapurple; */
+    margin: auto;
+    margin-top: 20px;
+    /* padding: 40px; */
+    height: 272px;
+}
+.img_container_food>img
+{
+    width: 100%;
+    margin: auto;
+}
+.img_container_food+p
+{
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin-top: 15px;
+}
+.food_list>:last-child
+{
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    line-height: 12px;
+    margin-top: 5px;
+}
+#food_learnMore
+{
+border: none;
+background-color: #094fdb;
+padding: 10px 21px;
+color: #fff;
+font-size: 20px;
+text-align: center;
+}
+
+#food_content
+{
+    /* border: 2px solid orange; */
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.food_content_box
+{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    /* border: 1px solid greenyellow; */
+    margin-top: 25px;
+    justify-content: space-between;
+    gap: 20px;
+}
+.food_content_img
+{
+    width: 50%;
+    /* border: 2px solid red; */
+    margin: auto;
+}
+.food_content_img>img
+{
+    width: 100%;
+}
+#food_content_text
+{
+    width: 50%;
+    text-align: justify;
+    align-items: center;
+    padding-top: 30px;
+}
+#food_content_text>p:nth-child(1)
+{
+    font-size: 25px;
+}
+
+
+#see_plan
+{
+background-image: url(https://assets-global.website-files.com/5d03b4e130118314af624b20/61f1296df66804c2d4aaf1e4_22_About_SeePlansMenu_1440x300_desktop.jpg);
+min-height: 300px;
+justify-content: center;
+align-items: center;
+background-position: 50% 50%;
+background-size: cover;
+display: flex;
+background-repeat: no-repeat;
+}
+#see_plan>button
+{
+    padding: 10px 21px;
+    font-size: 20px;
+    background-color: #094fdb;
+    border: none;
+    color: #fff;
+}
+
+button
+{
+    transition: transform 1.2s;
+}
+button:hover
+{
+    transform: translate(3px,-3px);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    cursor: pointer;
+}
+
+
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    border: 0px solid blue;
+    background-color: #fffdf7;
+    width: 100%;
+    height: 80px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    transition: transform 0.1s;
+}
+.navbar--up{
+    transform: translateY(-30px);
+}
+#freshly_logo{
+    width: 20%;
+    /* border: 0px solid red; */
+    padding: 2%;
+} 
+#freshly_logo>a>img{
+    width: 50%;
+
+}
+#titles{
+    display: flex;
+    padding: 2%;
+}
+#titles>a{
+    margin-left: 20px;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+    font-weight: bold;
+}
+#titles>a:hover{
+    color: #2a6dff;
+}
+#login_signup{
+    display: flex;
+    width: 18%;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid teal; */
+}
+#login_signup>.signup{
+    margin-left: 30px;
+}
+.signup>button{
+    /* border: 0px solid red; */
+    background-color: #3167ff;
+    font-family: sans-serif;
+    color: white;
+    font-size: 18px;
+    padding: 6px 11px;
+    border: none;
+    padding: 6px 11px;
+}
+.login{
+    font-family: sans-serif;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.login:hover{
+    color: #2a6dff;
+}
+#explore_discovery{
+    border:0px solid blue;
+    display: flex;
+    margin-top: 70px;
+}
+
+
+
+
+
+
+/* footer */
+#footer{
+    width: 100%;
+    height: 400px;
+    background-color: #fff;
+}
+.container>div>img{
+    display: block;
+    width: 100%;
+}
+.container_footer{
+    width: 70%;
+    height: 100%;
+    border: 0px solid red;
+    margin: auto;
+    display: flex;
+}
+.container_footer>div{
+    
+    border: 0px solid pink;
+    width: 17%;
+    height: 70%;
+    margin: auto;
+}
+.footer_fresh>img{
+    width: 80%;
+    margin-bottom: 10px;
+}
+.container_footer p{
+    font-family: sans-serif;
+    color: #706b66;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.container_footer h4{
+    font-family: sans-serif;
+    color: #333;
+    margin-bottom: 10px;
+}
+.social{
+    display: flex;
+}
+.social>img{
+    width: 15%;
+    opacity: 0.6;
+}
+.social>img~img{
+    margin-left: 15px;
+}
+.container_footer>div>img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+

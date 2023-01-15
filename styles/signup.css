@@ -1,0 +1,278 @@
+#navbar img {
+    width: 116px;
+    height: 27px;
+}
+
+svg {
+    overflow: hidden;
+}
+
+#navbar img,
+svg {
+    vertical-align: middle;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 4rem;
+    background-color: #fff;
+    /* border: 1px solid red; */
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid #ededed;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(237, 237, 237);
+    margin: auto;
+    position: sticky;
+    top: 0;
+
+}
+
+#list li {
+    display: inline-block;
+    line-height: 10px;
+    padding: 10px;
+    color: #5e5a5a;
+    line-height: 0px;
+    background-color: #fff;
+}
+
+#span {
+    color: #2a6dff;
+    font-size: 19px;
+    background-color: transparent;
+    text-decoration: underline;
+    margin-right: 20px;
+}
+
+i {
+    color: #2a6dff;
+    margin-right: 10px;
+    font-size: 21px;
+    align-items: center;
+}
+
+#banner {
+    width: 100%;
+    background-image: url("https://res.cloudinary.com/freshly/image/upload/c_crop,g_auto,dpr_auto,q_30,w_1500,h_900/v1494958610/joinnow-southchicken.jpg");
+    overflow: hidden;
+    background-size: cover;
+    /* border: 1px solid red; */
+    height: 800px;
+    background-position: 50% 50%;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    background-repeat: no-repeat;
+
+}
+
+#signup {
+    background-color: hsla(0, 0%, 100%, .8);
+    /* padding-left: 100px;
+    padding-top: 50px; */
+    /* padding-bottom: 60px; */
+    /* padding: 50px 100px; */
+    justify-content: center;
+    margin: auto;
+    margin-top: 200px;
+    width: 700px;
+    height: 400px;
+    padding: 20px 20px;
+
+}
+
+#list {
+    font-family: FavoritFreshly, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 500;
+}
+
+#signup h1 {
+    margin-left: 30px;
+    font-family: FavoritFreshly, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.2;
+    letter-spacing: normal;
+    color: #303030;
+    text-align: left;
+    padding-top: 30px;
+}
+
+#signup h2 {
+    margin-left: 30px;
+    font-size: 1.875rem;
+    font-family: FavoritFreshly, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    color: #303030;
+    text-align: left;
+}
+
+#signup #email {
+    /* padding: 10px 60px; */
+    border: 1px solid #717171;
+    height: 30px;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-right: 5px;
+    margin-left: 30px;
+    width: 200px;
+
+}
+
+#signup input[type="email"] {
+    text-align: left;
+    font-size: larger;
+}
+
+#signup input[type="number"] {
+    text-align: left;
+    font-size: larger;
+    margin-right: 5px;
+}
+
+#signup #Zip {
+    border: 1px solid #717171;
+    height: 30px;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    width: 200px;
+}
+
+#signup #btn {
+    background-color: #3167ff;
+    border: #3167ff;
+    color: white;
+    line-height: 1.5;
+    letter-spacing: .5px;
+    font-size: 16px;
+    font-weight: 500;
+    height: 50px;
+    width: 130px;
+    /* text-transform: none; */
+    justify-content: center;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#Zip:focus,
+#email:focus {
+    outline: 0.5px solid #3167ff;
+}
+
+#signup #btn:hover {
+    transform: translate(3px, -3px);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    cursor: pointer;
+
+}
+
+* {
+    font-family: FavoritFreshly, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+
+#signup p {
+    margin-top: 30px;
+    font-size: 15px;
+    line-height: 30px;
+    padding: 10px;
+
+}
+
+#col1,
+#col {
+    color: #2a6dff;
+}
+
+.common_text {
+    text-align: center;
+}
+
+.contentBx {
+    width: 80%;
+    margin: auto;
+
+}
+
+.title {
+    transition: background 0.2sec;
+    display: block;
+    text-align: left;
+    cursor: pointer;
+    padding: 14px;
+    font-size: 16px;
+    font-family: FavoritFreshly, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    position: relative;
+
+}
+
+.title:hover {
+    color: #2a6dff;
+
+}
+
+.title::after {
+    content: "\25be";
+    float: right;
+    transform: scale(2);
+    color: #2a6dff;
+
+}
+
+
+.title--active+.content {
+    display: block;
+    max-height: 200px;
+    transition-delay: 1ms;
+    transition: all 0.5s ease-in-out;
+    /* overflow-y: scroll; */
+}
+
+
+.title--active {
+    /* transition: 0.5sec; */
+    color: #2a6dff;
+
+}
+
+.title--active::after {
+    content: "\25b4";
+    transition: all 0.5s;
+}
+
+.content p {
+    margin-top: 0px;
+    font-family: FavoritFreshly, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 520;
+    line-height: 25px;
+    color: #303030;
+}
+
+.content {
+    /* overflow: hidden;
+       transition: max-height 0.2s; */
+    display: none;
+    padding: 10px;
+    overflow: auto;
+    position: relative;
+
+}
+
+#accordion {
+    position: absolute;
+    width: 100%;
+}
+
+#showdata {
+    height: 200px;
+    border: 1px solid red;
+}

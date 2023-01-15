@@ -1,0 +1,252 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fffdf7;
+    font-family: 'Poppins', sans-serif;
+}
+#navbar{
+    /* border: 2px solid red; */
+    margin-bottom: 5px;
+    /* position: absolute; */
+    width: 100%;
+    /* margin-top: 5px; */
+}
+#header
+{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+#headdr_logo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#headdr_logo>a>img{
+    width: 80px;
+    max-height: 37px;
+
+}
+#header_text
+{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid rebeccapurple; */
+    width: 180px;
+    /* margin: auto; */
+}
+#header_text>p
+{
+    font-size: 12px;
+    margin: auto;
+}
+#header_text>p>a
+{
+    text-decoration: none;
+    color: black;
+}
+
+#main_conatiner
+{
+    /* border: 1px solid red; */
+    /* top: 41px; */
+    /* position: absolute; */
+    width: 100%;
+}
+
+#search_container
+{
+/* border: 2px solid olivedrab; */
+/* position:fixed; */
+ /* top: 41px;  */
+/* right: 0; */
+width: 100%;
+left: 0;
+height: 190px;
+background: url(https://theme.zdassets.com/theme_assets/1612443/d214b970a5c2a51ac648138ebda4c206924c9dd7.jpg);
+/* background-position: center; */
+background-size:cover contain;
+background-repeat: no-repeat;
+padding: 0 20px;
+text-align: center;
+overflow: hidden;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#search_container>input
+{
+    width: 400px;
+    border-radius: 20px;
+    padding: 5px;
+    border: none;
+    /* margin-left: 5px; */
+}
+#search_container>input:hover
+{
+    border: 1px solid black;
+}
+#search_container>input>text
+{
+    margin-left: 10px;
+}
+
+#mid_section
+{
+
+    /* border: 2px solid green; */
+    margin-top: 30px;
+    
+margin-bottom: 30px;
+}
+#mid_container
+{
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    width: 80%;
+    margin: auto;
+    /* border: 1px solid green; */
+    gap: 20px;
+    margin-top: 10px;
+}
+.containe_box
+{
+    border: 1px solid  rgba(3, 81, 78, 1);
+    text-align: center;
+    padding: 15px;
+    /* display: flex; */
+    width: 250px;
+    margin: auto;
+    border-radius: 2px;
+    color: rgba(3, 81, 78, 1);
+    font-size: 12px;
+
+}
+.containe_box:hover
+{
+    color: #fffdf7;
+    background-color: rgba(3, 81, 78, 1);
+}
+
+#mid_container>:last-child
+{
+    grid-column: auto / span 3;
+    width: 93%;
+}
+
+.articles
+{
+    /* border: 1px solid tomato; */
+    width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.articles>h2{
+    font-size: 18px;
+    font-weight: 500;
+}
+/* .promoted-articles
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+} */
+/* ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.promoted-articles-item
+{
+    flex: 1 0 auto;
+}
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+} */
+
+.promoted-articles
+{
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    /* width: 80%; */
+    margin: auto;
+    /* border: 1px solid green; */
+    gap: 20px;
+    margin-top: 10px;
+}
+.promoted-articles-item
+{
+    border-bottom: 1px solid gray;
+    /* text-align: center; */
+    padding: 15px;
+    /* display: flex; */
+    width: 250px;
+    margin: auto;
+    /* border-radius: 2px; */
+    color: rgba(3, 81, 78, 1);
+    font-size: 12px;
+}
+.promoted-articles-item>a
+{
+    text-decoration: none;
+    color: #333;
+    font-size: 12px;
+}
+.promoted-articles-item>a:hover
+{
+  text-decoration: 0.5px underline;  
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#hr
+{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
+    border-bottom:0.5px solid gray;
+}
+
+.bottom
+{
+    width: 100%;
+    margin-top: 70px;
+    display: flex;
+    text-align: end;
+    border-top:0.5px solid gray ;
+    /* margin-bottom: 30px; */
+    justify-content: center ;
+    align-items: center;
+    height: 60px;
+    
+}
+#bottom_inner
+{
+    width: 80%;
+}
+#bottom_inner>p
+{
+ font-size: 12px;
+}

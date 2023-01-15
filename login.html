@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="./styles/login.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div id="navbar_login">
+
+        <div id="login_list_left">
+            <ul>
+                <!-- *\need to follw the same name for that plan page\* -->
+                <a href="plan&menu.html">
+                    <li>Plans & Menu</li>
+                </a>
+                <!-- need to give about page link here -->
+                <a href="">
+                    <li>About
+                    </li>
+                </a>
+                <!-- need to give Home page link here -->
+                <a href="./index.html">
+                    <li>For Business
+                    </li>
+                </a>
+                <!-- need to give Gift page link here -->
+                <a href="./Gift page/gitf.html">
+                    <li>Gifts </li>
+                </a>
+            </ul>
+        </div>
+        <div>
+            <!-- need to give link for home page -->
+            <a href="./index.html"><img
+                    src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5fc4feea074f5b86a6c62285_freshly-logo-R.svg"
+                    alt=""></a>
+        </div>
+        <div id="login_list_right">
+            <ul>
+                <!-- need to give refer&earn page link here -->
+                <a href="">
+                    <li>Get $30
+                    </li>
+                </a>
+                <!-- need to give help page link here -->
+                <a href="./help Page/help.html">
+                    <li>Help
+                    </li>
+                </a>
+                <a href="./login.html">
+                    <li>Login
+                    </li>
+                </a>
+                <a href="./signup.html">
+                    <li id="signup_btn" style="color: #fff;text-decoration: none;">Signup </li>
+                </a>
+
+            </ul>
+        </div>
+
+
+
+    </div>
+    <div id="Login_Details">
+
+
+        <form id="loginform">
+            <h1>Log In</h1>
+            <label>Name</label><br>
+            <input type="text" placeholder="Enter User Name" id="username"><br>
+            <label>Email</label><br>
+            <input type="Email" placeholder="you@domain.com" id="useremail"><br>
+            <label>Password</label><br>
+            <input type="password" placeholder="Enter password" id="userpassword"><br>
+            <button id="submit">Log In</button><br>
+            <div id="forgetpassword">
+                <!-- forgetpawword page need to link -->
+                <a href="" id="passwordcolor"><span>Forget Password?</span></a> <span id="donthaveacc">Don’t have an
+                    account? </span><a href="./signup.html" id="passwordcolor">Get
+                    Started</a>
+            </div>
+
+        </form>
+
+    </div>
+    <div id="footercomponent">
+        <!-- need to appen footer here -->
+
+    </div>
+
+
+</body>
+<script src="./script/login.js"></script>
+<script type="module">
+    import footer from "./Home Page/components/footer.js"
+    document.getElementById("footercomponent").innerHTML = footer()
+</script>
+
+</html>

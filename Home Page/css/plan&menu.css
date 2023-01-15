@@ -1,0 +1,123 @@
+#flexibleplan {
+    width: 46%;
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: 80px;
+    font-family: Favoritfreshly, sans-serif;
+}
+
+#plan_heading {
+    margin: auto;
+    text-align: center;
+    line-height: 30px;
+}
+
+#plan_heading img {
+    width: 25%;
+    display: block;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+
+#plan_heading h2 {
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-bottom: 0;
+    color: #333;
+    font-size: 2.375rem;
+    line-height: 1.16em;
+}
+
+#plan_heading p {
+    font-family: Favoritfreshly, sans-serif;
+    color: #333;
+    font-size: .875rem;
+
+}
+
+#plansperday {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    /* border: 1px solid red; */
+    padding: 10px;
+    position: relative;
+
+
+}
+
+#plansperday>div {
+    width: 19%;
+}
+
+#plansperday img {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+
+
+}
+
+.individual span {
+    color: #357471;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 700;
+    /* border: 1px solid red; */
+}
+
+.individual {
+    position: relative;
+
+}
+
+#p {
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    color: #357471;
+    background-color: #fce94e;
+    font-size: 15px;
+    font-weight: 800;
+    padding: 3px 8px;
+    border-radius: 14px;
+    line-height: 1em;
+
+}
+
+#details {
+    text-align: center;
+    margin-bottom: 32px;
+    color: #333;
+    font-weight: 400;
+    font-family: Favoritfreshly, sans-serif;
+}
+
+#getstarted {
+
+    background-color: #3167ff;
+    padding: 13px 16px 12px;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 1.33em;
+    text-transform: capitalize;
+    margin-top: 20px;
+    transition: transform 1.2s;
+    
+}
+
+
+#getstarted:hover {
+    /* padding: 16px 16px 16px; */
+    /* transition-property: all; */
+    /* font-weight: 600; */
+    transform: translate(3px,-3px);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    cursor: pointer;
+    /* transition-duration: all .8s; */
+}
